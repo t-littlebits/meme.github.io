@@ -11,8 +11,8 @@ const TICK_LENGTH = 78
 
 
 function moveWindowBounce () {
-  let vx = VELOCITY * (Math.random() > 0.5 ? 1 : -1)
-  let vy = VELOCITY * (Math.random() > 0.5 ? 1 : -1)
+  let vx = VELOCITY * (Math.random() > 0.5 ? 10 : -1)
+  let vy = VELOCITY * (Math.random() > 0.5 ? 10 : -1)
 
   window.setInterval(() => {
 	const x = window.screenX
