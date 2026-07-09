@@ -1,5 +1,5 @@
 function myFunction() {
-  alert("LOL YOU'VE BEEN RICKROLLED LOL");
+  alert("hehehhehehehe");
 }
 
 //This doesn't appear to work for some reason. Backup is down below.
@@ -12,15 +12,14 @@ window.oncontextmenu = function(){
 //credit to https://stackoverflow.com/questions/4909167/how-to-add-a-custom-right-click-menu-to-a-webpage
 if (document.addEventListener) {
   document.addEventListener('contextmenu', function(e) {
-    //alert("HAHAHHAHAHAHHAHAHHHA");
-    console.log('LMAO YOU IDIOT')
+    console.log('YOU ARE IN THE CONSOLE')
     window3 = window.open("child.html","_blank","width=440,height=518,left=689,top=439,toolbar=0,status=0,");
     e.preventDefault();
   }, false);
 } else {
   document.attachEvent('oncontextmenu', function() {
     //alert("You've tried to open context menu");
-    console.log('LMAO YOU STUPID IDIOT')
+    console.log('YOU ARE IN THE CONSOLE')
     window3 = window.open("child.html","_blank","width=440,height=518,left=689,top=439,toolbar=0,status=0,");
     window.event.returnValue = false;
   });
